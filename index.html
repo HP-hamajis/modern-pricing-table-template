@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cennik ZenTask AI</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <section class="pricing-section">
+        <h2 class="section-title">Wybierz plan dla siebie</h2>
+        <p class="section-subtitle">Przejmij kontrolę nad swoim czasem z ZenTask AI.</p>
+
+        <div class="toggle-container">
+            <span class="toggle-label">Miesięcznie</span>
+            <label class="switch">
+                <input type="checkbox" id="billing-toggle">
+                <span class="slider round"></span>
+            </label>
+            <span class="toggle-label">Rocznie <span class="discount-badge">-20%</span></span>
+        </div>
+
+        <div class="pricing-grid">
+            
+            <div class="plan-card">
+                <div class="plan-name">Starter</div>
+                <div class="plan-price-box">
+                    <div class="plan-price" data-monthly="19" data-yearly="15">19 zł</div>
+                    <span class="plan-period">/msc</span>
+                </div>
+                <div class="billing-info">Rozliczane rocznie (180 zł)</div>
+                <p class="plan-description">Idealny na początek przygody z cyfrową organizacją dla studentów.</p>
+                <ul class="features-list">
+                    <li>3 aktywne projekty</li>
+                    <li>Podstawowy Asystent AI</li>
+                    <li>Synchronizacja z Google</li>
+                    <li class="disabled">Integracja Slack/Zoom</li>
+                </ul>
+                <a href="#" class="btn btn-outline">Wybierz Starter</a>
+            </div>
+
+            <div class="plan-card featured">
+                <div class="badge">Najlepszy Wybór</div>
+                <div class="plan-name">Pro</div>
+                <div class="plan-price-box">
+                    <div class="plan-price" data-monthly="49" data-yearly="39">49 zł</div>
+                    <span class="plan-period">/msc</span>
+                </div>
+                <div class="billing-info">Rozliczane rocznie (468 zł)</div>
+                <p class="plan-description">Pełna moc AI dla profesjonalistów, którzy cenią swój czas.</p>
+                <ul class="features-list">
+                    <li>Nielimitowane projekty</li>
+                    <li><strong>Zaawansowany AI</strong></li>
+                    <li>Integracja Slack, Zoom, Outlook</li>
+                    <li>Tryb "Głębokiej Pracy"</li>
+                </ul>
+                <a href="#" class="btn btn-primary">Rozpocznij Okres Próbny</a>
+            </div>
+
+            <div class="plan-card">
+                <div class="plan-name">Business</div>
+                <div class="plan-price-box">
+                    <div class="plan-price" data-monthly="149" data-yearly="119">149 zł</div>
+                    <span class="plan-period">/msc</span>
+                </div>
+                <div class="billing-info">Rozliczane rocznie (1428 zł)</div>
+                <p class="plan-description">Kompleksowe rozwiązanie dla małych zespołów i managerów.</p>
+                <ul class="features-list">
+                    <li>Dla 5 użytkowników</li>
+                    <li>Własne modele AI</li>
+                    <li>Pełne API + Webhooks</li>
+                    <li>Zaawansowana analityka</li>
+                </ul>
+                <a href="#" class="btn btn-outline">Skontaktuj się</a>
+            </div>
+
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,55 @@
+/* RESET I PODSTAWY */
+* { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+body { background-color: #f4f7f6; color: #333; line-height: 1.6; padding: 20px; }
+.pricing-section { max-width: 1200px; margin: 0 auto; text-align: center; padding: 40px 20px; }
+.section-title { font-size: 2.5rem; margin-bottom: 10px; color: #2d3436; }
+.section-subtitle { font-size: 1.1rem; color: #636e72; margin-bottom: 30px; }
+
+/* PRZEŁĄCZNIK (TOGGLE) */
+.toggle-container { display: flex; align-items: center; justify-content: center; margin-bottom: 50px; gap: 15px; font-weight: 600; color: #636e72; }
+.switch { position: relative; display: inline-block; width: 60px; height: 34px; }
+.switch input { opacity: 0; width: 0; height: 0; }
+.slider { position: absolute; cursor: pointer; top: 0; left: 0; right: 0; bottom: 0; background-color: #ccc; transition: .4s; border-radius: 34px; }
+.slider:before { position: absolute; content: ""; height: 26px; width: 26px; left: 4px; bottom: 4px; background-color: white; transition: .4s; border-radius: 50%; }
+input:checked + .slider { background-color: #6c5ce7; }
+input:checked + .slider:before { transform: translateX(26px); }
+.discount-badge { background-color: #ffeaa7; color: #d35400; padding: 2px 8px; border-radius: 12px; font-size: 0.8rem; margin-left: 5px; text-transform: uppercase; }
+
+/* GRID I KARTY */
+.pricing-grid { display: flex; justify-content: center; align-items: center; gap: 30px; flex-wrap: wrap; }
+.plan-card { background: white; border-radius: 16px; padding: 40px; width: 320px; text-align: left; position: relative; transition: transform 0.3s ease, box-shadow 0.3s ease; border: 1px solid #e0e0e0; }
+.plan-card:hover { transform: translateY(-10px); box-shadow: 0 20px 40px rgba(0,0,0,0.1); }
+
+/* DETALE KART */
+.plan-name { font-size: 1.2rem; font-weight: 600; color: #636e72; margin-bottom: 10px; text-transform: uppercase; letter-spacing: 1px; }
+.plan-price-box { display: flex; align-items: baseline; margin-bottom: 5px; }
+.plan-price { font-size: 3rem; font-weight: 700; color: #2d3436; transition: all 0.3s ease; }
+.plan-period { font-size: 1rem; color: #b2bec3; font-weight: 400; margin-left: 5px; }
+.billing-info { font-size: 0.8rem; color: #6c5ce7; height: 20px; margin-bottom: 10px; font-weight: 600; opacity: 0; transition: opacity 0.3s; }
+.billing-info.visible { opacity: 1; }
+.plan-description { margin: 10px 0 20px; font-size: 0.95rem; color: #636e72; min-height: 60px; }
+
+/* LISTA I PRZYCISKI */
+.features-list { list-style: none; margin-bottom: 30px; }
+.features-list li { margin-bottom: 12px; display: flex; align-items: center; font-size: 0.95rem; }
+.features-list li::before { content: "✔"; display: inline-block; margin-right: 10px; color: #27ae60; font-weight: bold; }
+.features-list li.disabled { color: #b2bec3; text-decoration: line-through; }
+.features-list li.disabled::before { content: "✕"; color: #b2bec3; }
+
+.btn { display: block; width: 100%; padding: 15px; border-radius: 8px; text-align: center; text-decoration: none; font-weight: 600; transition: background 0.3s ease; border: none; cursor: pointer; font-size: 1rem; }
+.btn-outline { background: transparent; border: 2px solid #6c5ce7; color: #6c5ce7; }
+.btn-outline:hover { background: #6c5ce7; color: white; }
+
+/* WYRÓŻNIONY PLAN PRO */
+.plan-card.featured { border: 2px solid #6c5ce7; transform: scale(1.05); box-shadow: 0 15px 30px rgba(108, 92, 231, 0.15); z-index: 2; }
+.plan-card.featured:hover { transform: scale(1.05) translateY(-10px); }
+.badge { position: absolute; top: -15px; left: 50%; transform: translateX(-50%); background: #6c5ce7; color: white; padding: 5px 15px; border-radius: 20px; font-size: 0.8rem; font-weight: 700; text-transform: uppercase; }
+.btn-primary { background: #6c5ce7; color: white; box-shadow: 0 4px 15px rgba(108, 92, 231, 0.4); }
+.btn-primary:hover { background: #5a4bcf; }
+
+/* RWD */
+@media (max-width: 900px) {
+    .pricing-grid { flex-direction: column; }
+    .plan-card { width: 100%; max-width: 400px; }
+    .plan-card.featured { transform: scale(1); order: -1; }
+}
