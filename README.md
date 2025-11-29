@@ -13,7 +13,7 @@ Prosta, responsywna i nowoczesna tabela cenowa (Pricing Table) stworzona w czyst
 ## Demo (Podgląd) 👀
 
 Zobacz jak to wygląda na żywo:
-[LINK DO TWOJEGO GITHUB PAGES - Instrukcja niżej]
+[LINK](https://hsr88.github.io/modern-pricing-table-template/)
 
 ## Jak używać? ⚙️
 
