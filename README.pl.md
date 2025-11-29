@@ -1,5 +1,9 @@
 # Modern Pricing Table Template 💰
 
+```markdown
+[🇬🇧 English Version / Czytaj po angielsku](README.md)
+```
+
 Prosta, responsywna i nowoczesna tabela cenowa (Pricing Table) stworzona w czystym HTML, CSS i JavaScript. Idealna dla stron typu SaaS, landing page'y i ofert usługowych.
 
 ## Funkcje 🚀
